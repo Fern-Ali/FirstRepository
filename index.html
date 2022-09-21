@@ -1,49 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="meme_sheet.css" />
+    <title>Meme Generator</title>
 </head>
 <body>
-    <button>Sign Up</button>
-    <hr>
-    <div class="card">
-        <div class="img"></div>
-        <div class="title">I iz a catz.</div>
-        <div class="description">
-            Lorem ipsum dolor amet craft beer 90's art party, vegan four dollar
-            toast green juice vaporware next level fingerstache mustache shaman
-            DIY brunch ethical. Plaid fam cornhole trust fund, umami knausgaard
-            authentic shabby chic kogi godard tote bag palo santo beard
-            locavore coloring book.
+    <div id="generator-container">
+
+
+        <h3> curated by yours truly</h3>
+
+
+        <div id="form-div">
+            <h1>Behold, the glorious Meme Generator</h1>
+            <form action="#" id="meme-form">
+
+                <p>
+
+                    <div id="img-input">
+
+                        <input name="imgHref" id="img" class="input" type="text" placeholder="upload image" value="" minlength="2" />
+
+                    </div>
+                    <div id="top-input">
+
+                        <input name="top" id="top-line" class="input" type="text" placeholder="top text" value="" minlength="2" maxlength="200" />
+
+                    </div>
+                    <div id="bottom-input">
+
+                        <input name="bottom" id="bottom-line" class="input" type="text" placeholder="bottom text" value="" minlength="2" maxlength="200" />
+
+                    </div>
+
+
+                </p>
+                <div id="btn-holder">
+                    <button id="btn"> Generate Meme </button>
+                </div>
+
+            </form>
         </div>
+
     </div>
-    <hr>
-    <div class="tiles">
-        <div class="tile">
-            <div class="img-wrapper img-1">
-            </div>
-            <div class="caption">
-                NOM NOM NOM
-            </div>
-        </div>
-        <div class="tile">
-            <div class="img-wrapper img-2">
-            </div>
-            <div class="caption">
-                WANNA DANCE?!!
-            </div>
-        </div>
-        <div class="tile">
-            <div class="img-wrapper img-3">
-            </div>
-            <div class="caption">
-                HIGH FIVE!
-            </div>
-        </div>
-    </div>
+    <div id="meme-container"></div>
+
+
+
+
+
+
+
+    <script src="memeScript.js"></script>
 </body>
 </html>

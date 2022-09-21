@@ -1,0 +1,228 @@
+﻿body {
+    background-color: black;
+    /*background-position: center;*/
+    background-size: auto;
+    transition: background-image 3s;
+}
+
+
+h1 {
+    /*display: inline-flex;*/
+    /*display: none;*/
+    color: white;
+    text-align: center;
+    display: none;
+
+}
+
+h3 {
+   text-align: center;
+   position: relative;
+   display: none;
+}
+
+
+
+
+
+
+.input {
+    /*width: 20em;*/
+    height: 2em;
+    padding: 0px;
+    border: 0px;
+}
+#form-div {
+    background-color: rgba(65, 3, 35, 0.36);
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 11.5vh;
+    border: inset;
+    border-radius: 5px;
+}
+#form-div div{
+    
+    flex-wrap: wrap;
+    position: center;
+    flex-grow: 1;
+    /*display: flex;*/
+    border: 5px black;  
+    justify-content: center;
+
+    
+}
+
+::placeholder {
+    text-align: center;
+    color: darkslategray;
+    /*color: rgba(245, 39, 145, 0.29);*/
+    /*background-color: rgba(185, 168, 174, 20%);*/
+    font-weight: 700;
+    /*font-style: italic;*/
+    font-size: 18px;
+    
+}
+
+#generator-container {
+    display: flex;
+    /*flex-direction: row;*/
+    margin: 20px auto;
+    
+    width: 60vw;
+    /*border: 5px solid lightpink;*/
+    justify-content: center;
+    border-radius: 5px;
+    /*background-color: rgba(250, 235, 215, .5);*/
+
+}
+
+#meme-form {
+    /*position: relative;*/
+    /*margin: 0 auto;*/
+    height: 5vh;
+    width: 40vw;
+    margin: 20px auto;
+    /*border: 5px solid #FFC5A0;*/
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(185, 168, 174, 45%);
+    /*box-shadow: 2px 2px silver, -1px -2px white;*/
+    padding-right: 20px;
+
+    border: inset;
+}
+
+@media(max-width: 1528px) {
+    #meme-form {
+        flex-direction: column;
+        background-color: rgba(185, 168, 174, 45%);
+        height: 70px;
+        /*border: none;*/
+        padding-top: 150px;
+    }
+    #form-div {
+        /*border: none;*/
+        background-color: rgba(65, 3, 35, 0.36);
+        width: 220px;
+        height: 280px;
+    }
+    #btn {
+        position: relative;
+        left: 30px;
+        bottom: 270px;
+    }
+    #meme-container {
+        /*padding-top: 50px;*/
+    }
+}
+
+#btn-holder {
+    /*padding: 10px;*/
+}
+
+#btn {
+    background-color: rgba(245, 39, 145, 0.13);
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: white;
+    color: antiquewhite;
+    font-family: 'Satisfy', fancy;
+    font-size: 1em;
+    height: 40px;
+    /*font-size: 2em;*/
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(245, 39, 145, 0.29)
+}
+
+#img-input {
+    position: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid rgba(245, 39, 145, 0.00);
+    /*background-color: #FFC5A0;*/
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+#top-input {
+    position: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid rgba(245, 39, 145, 0.00);
+    /*background-color: #FFC5A0;*/
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+#bottom-input {
+    position: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid rgba(245, 39, 145, 0.00);
+    /*background-color: #FFC5A0;*/
+    border-radius: 5px;
+    padding-top: 7px;
+    
+}
+
+#generatedMeme {
+    /*background-image: ;*/
+}
+
+
+#meme-container {
+    justify-content: center;
+}
+.generatedMemeBackground {
+    border: inset;
+    height: 250px;
+    width: 400px;
+    background-size: cover;
+    display: inline-grid;
+    margin: 20px;
+    /* flex-direction: row;*/
+    border-radius: 5px;
+}
+
+.xButton {
+    background-color: rgba(245, 39, 145, 0.13);
+    border-radius: 5px;
+    font-weight: 900;
+    border-color: white;
+    color: antiquewhite;
+}
+
+.xButton:hover {
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    background-color: rgba(245, 39, 145, 0.29)
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    /*background-color: rgba(136, 136, 136, 0.3);*/
+    /*-webkit-text-stroke: 2px black;*/ /* stroke width and color */
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
