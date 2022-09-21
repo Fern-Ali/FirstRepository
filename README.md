@@ -1,5 +1,5 @@
-# FirstRepository
-Meme Generator Sept 2022
+# Meme Generator
+Umass Global Software Engineering Bootcamp -- Assessment 1; FirstRepository Sept 2022 
 |  Guide:      |  |    |
 | :---        |    :----   |          ---: |
 | Step 1:      | Visit page       | *[Meme Generator](https://fern-ali.github.io/FirstRepository/)*  |
