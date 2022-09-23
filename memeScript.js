@@ -129,11 +129,11 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/1132043.jpg')";
             /*document.body.style.backgroundSize = "cover";*/
         } else if (randomInt === 8) {
-            document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/8k-stockholm-digital-alone-art_bWtpZ2aUmZqaraWkpJRubWllrWtmZWY.jpg')";
+            document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/1132043.jpg')";
             document.body.style.backgroundSize = "cover";
         } else if (randomInt === 9) {
-            document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/8k-stockholm-digital-alone-art_bWtpZ2aUmZqaraWkpJRubWllrWtmZWY.jpg')";
-            /*document.body.style.backgroundSize = "cover";*/
+            document.body.style.backgroundImage = "url('https://wallpaperaccess.com/full/1132043.jpg')";
+            document.body.style.backgroundSize = "cover";
         } else if (randomInt === 0) {
             document.body.style.backgroundImage = "url('https://images4.alphacoders.com/663/663219.jpg')";
             document.body.style.backgroundSize = "cover";
