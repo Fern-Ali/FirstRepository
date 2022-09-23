@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1662574429291-5d9c9b2ff6c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80')";
             document.body.style.backgroundSize = "cover";
         } else if (randomInt === 9) {
-            document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/4k-natural-gradient_a2xsZmiUmZqaraWkpJRmbmdlrWZlbWU.jpg')";
+            document.body.style.backgroundImage = "url('https://images.wallpapersden.com/image/download/mountain-valley-hd-photography_bWtpaGqUmZqaraWkpJRoZWVlrWZrbWw.jpg')";
             /*document.body.style.backgroundSize = "cover";*/
         } else if (randomInt === 0) {
             document.body.style.backgroundImage = "url('https://images4.alphacoders.com/663/663219.jpg')";
