@@ -103,9 +103,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /*test();*/
 
-    function myFunction(x) {
+    function setBackground(x) {
         if (x.matches) { // If media query matches
-            document.body.style.backgroundImage = "url('https://wallpaper.dog/large/20492556.jpg')";
+            document.body.style.backgroundImage = "url('https://marketplace.canva.com/EAFJd1mhO-c/1/0/900w/canva-colorful-watercolor-painting-phone-wallpaper-qq02VzvX2Nc.jpg')";
         
         } else {
             randomize();
@@ -147,8 +147,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     let x = window.matchMedia("(max-width: 700px)")
-    myFunction(x) // Call listener function at run time
-    x.addListener(myFunction) // Attach listener function on state changes
+    setBackground(x) // Call listener function at run time
+    x.addListener(setBackground) // Attach listener function on state changes
 
 
     
