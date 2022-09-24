@@ -129,9 +129,10 @@ h3 {
 
 @media(max-width: 501px) {
     body {
-        background-size: auto;
-        background-repeat: round;
-        background-color: rgba(65, 3, 35, 0.36);
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-color: rgba(65, 3, 35, 0.36);
+    background-position: center center;
     }
 }
 
